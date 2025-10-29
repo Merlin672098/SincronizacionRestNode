@@ -1,8 +1,9 @@
+require('dotenv').config();
 const express = require('express');
 const amigosRouter = require('./routes/amigos');
 const dispositivoRouter = require('./routes/dispositivos');
 const placaRouter = require('./routes/placa');
-require('dotenv').config();
+
 
 const http = require('http');
 const url = require('url');
