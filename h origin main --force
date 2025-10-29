@@ -1,0 +1,47 @@
+[33mcommit c1fee84c8f725b91c919bf5e43aaf1c10436bc11[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Merlin672098 <alvarrxd@hotmail.com>
+Date:   Wed Oct 29 19:19:38 2025 -0400
+
+    Configuración segura con .env y actualización de Firebase
+
+ .gitignore         | Bin [31m126[m -> [32m55[m bytes
+ config/firebase.js |  13 [32m+++++++++[m[31m----[m
+ index.js           |   3 [32m++[m[31m-[m
+ 3 files changed, 11 insertions(+), 5 deletions(-)
+
+[33mcommit c3d4cec8431c7b5b1e38c87cd5c31b710dba2338[m
+Author: Merlin672098 <alvarrxd@hotmail.com>
+Date:   Wed Oct 29 18:53:10 2025 -0400
+
+    nose
+
+ .gitignore                     |  Bin [31m0[m -> [32m126[m bytes
+ config/database.js             |   14 [32m+[m
+ config/firebase.js             |   11 [32m+[m
+ db.sql                         |   80 [32m++[m
+ esquemaa creacion db.txt       |   68 [32m+[m
+ index.js                       |   48 [32m+[m
+ models/amigo.js                |    0
+ models/rol.js                  |   24 [32m+[m
+ package-lock.json              | 2823 [32m++++++++++++++++++++++++++++++++++++++++[m
+ package.json                   |   26 [32m+[m
+ routes/amigos.js               |  123 [32m++[m
+ routes/dispositivos.js         |  406 [32m++++++[m
+ routes/documentos_legales.js   |    0
+ routes/pagos.js                |    0
+ routes/perfil.js               |    0
+ routes/placa.js                |   22 [32m+[m
+ routes/simulacion_accidente.js |    0
+ routes/suscripcion.js          |    0
+ routes/vehiculos.js            |    0
+ routes/websocket.js            |   54 [32m+[m
+ 20 files changed, 3699 insertions(+)
+
+[33mcommit c9244c136657f5dbafcdb572faabaca11d815dd6[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Merlin672098 <alvarrxd@hotmail.com>
+Date:   Wed Oct 29 18:50:43 2025 -0400
+
+    first commit
+
+ README.md | Bin [31m0[m -> [32m76[m bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
